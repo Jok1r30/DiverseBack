@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DiverseBack:jar">
+    <output-path>$PROJECT_DIR$/../../../../servers/cauldron 1.6.4/plugins</output-path>
+    <root id="archive" name="DiverseBack.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="DiverseBack" />
+    </root>
+  </artifact>
+</component>

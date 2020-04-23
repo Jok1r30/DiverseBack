@@ -1,0 +1,7 @@
+name: DiverseBack
+version: 1.0
+author: Jok1r
+main: ru.jok1r.back.Main
+commands:
+  back:
+  dbackreload:
