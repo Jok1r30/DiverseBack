@@ -17,7 +17,7 @@ import java.util.List;
 
 public class Main extends JavaPlugin {
 
-    public Main instance;
+    public static Main instance;
     public static HashMap backMap = new HashMap<String, Location>();
     public static List usesTp = new ArrayList<String>();
 
@@ -64,6 +64,11 @@ public class Main extends JavaPlugin {
                 Player player = (Player)sender;
                 sendMessageToPlayer(player, getConfig().getString("messages.noPerm"));
                 return false;
+            }
+
+            if(!file.exists()) {
+                saveDefaultConfig();
+                getConfig().options().copyDefaults(true);
             }
 
             reloadConfig();

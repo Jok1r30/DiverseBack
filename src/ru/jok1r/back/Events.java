@@ -23,7 +23,6 @@ public class Events implements Listener {
                 if(usesTp.contains(player.getDisplayName())) {
                     usesTp.remove(player.getDisplayName());
                 }
-                backMap.remove(player.getDisplayName());
                 backMap.put(player.getDisplayName(), player.getLocation());
             }
         }
