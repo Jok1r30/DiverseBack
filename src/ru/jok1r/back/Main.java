@@ -35,7 +35,7 @@ public class Main extends JavaPlugin {
     }
 
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-        if (cmd.getLabel().equalsIgnoreCase("back")) {
+        if (cmd.getLabel().equalsIgnoreCase("dback")) {
             if (!(sender instanceof Player)) {
                 return false;
             } else {
