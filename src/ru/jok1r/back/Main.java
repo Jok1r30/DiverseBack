@@ -14,12 +14,14 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Main extends JavaPlugin {
 
     public static Main instance;
-    public static HashMap backMap = new HashMap<String, Location>();
-    public static List usesTp = new ArrayList<String>();
+    public static Map<String, Location> backMap = new HashMap();
+    public static List<String> usesTp = new ArrayList();
+    public static Map<String, Long> cooldowns = new HashMap();
 
     File file = new File(getDataFolder(), "config.yml");
 
@@ -48,14 +50,24 @@ public class Main extends JavaPlugin {
                         return false;
                     }
 
-                    if (backMap.containsKey(player.getDisplayName())) {
-                        Location loc = (Location) backMap.get(player.getDisplayName());
-                        player.teleport(loc);
-                        usesTp.add(player.getDisplayName());
-                        sendMessageToPlayer(player, getConfig().getString("messages.teleport"));
-                    } else {
+                    if(!backMap.containsKey(player.getDisplayName())) {
                         sendMessageToPlayer(player, getConfig().getString("messages.noDeath"));
+                        return false;
                     }
+
+                    if(cooldowns.containsKey(player.getDisplayName()) && System.currentTimeMillis() < cooldowns.get(player.getDisplayName())) {
+                        String cdMsg = getConfig().getString("messages.cooldown");
+                        long cd = (cooldowns.get(player.getDisplayName()) - System.currentTimeMillis()) / 1000;
+                        cdMsg = cdMsg.replaceAll("\\%time\\%", cd + "");
+                        sendMessageToPlayer(player, cdMsg);
+                        return false;
+                    }
+
+                    Location loc = backMap.get(player.getDisplayName());
+                    player.teleport(loc);
+                    usesTp.add(player.getDisplayName());
+                    sendMessageToPlayer(player, getConfig().getString("messages.teleport"));
+                    cooldowns.put(player.getDisplayName(), System.currentTimeMillis() + (getConfig().getInt("cooldown") * 1000));
                 }
             }
         }

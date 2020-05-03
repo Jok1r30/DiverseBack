@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../servers/bukkit 1.6.4/plugins" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -99,6 +99,17 @@
       <workItem from="1587680785158" duration="4867000" />
       <workItem from="1587735810637" duration="768000" />
       <workItem from="1587736597926" duration="12000" />
+      <workItem from="1587737153070" duration="467000" />
+      <workItem from="1587752567260" duration="1754000" />
+      <workItem from="1587795473772" duration="23000" />
+      <workItem from="1587854960827" duration="17000" />
+      <workItem from="1587871118810" duration="16000" />
+      <workItem from="1587871157092" duration="5000" />
+      <workItem from="1587923784569" duration="14000" />
+      <workItem from="1587926175796" duration="24000" />
+      <workItem from="1587927786085" duration="215000" />
+      <workItem from="1588033724787" duration="19000" />
+      <workItem from="1588499393551" duration="3376000" />
     </task>
     <servers />
   </component>
@@ -110,13 +121,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587588113438" />
-    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1587587873014">
+    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1588500618713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587587873014" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1587594827710">
+    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588500618713" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1588500620631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587594827710" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588500620631" />
   </component>
 </project>
