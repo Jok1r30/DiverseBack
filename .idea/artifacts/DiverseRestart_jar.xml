@@ -1,11 +1,11 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="DiverseBack:jar">
+  <artifact type="jar" name="DiverseRestart:jar">
     <output-path>$PROJECT_DIR$/../../../../servers/bukkit 1.6.4/plugins</output-path>
-    <root id="archive" name="DiverseBack.jar">
+    <root id="archive" name="DiverseRestart.jar">
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
       </element>
-      <element id="module-output" name="DiverseBack" />
+      <element id="module-output" name="DiverseRestart" />
     </root>
   </artifact>
 </component>

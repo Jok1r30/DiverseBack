@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DiverseBack.iml" filepath="$PROJECT_DIR$/DiverseBack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiverseRestart.iml" filepath="$PROJECT_DIR$/DiverseRestart.iml" />
     </modules>
   </component>
 </project>

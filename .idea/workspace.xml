@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="DiverseBack:jar" />
+      <artifact name="DiverseRestart:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -33,12 +33,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../servers/bukkit 1.6.4/plugins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.jok1r.restart" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\MinecraftItems\PluginsMinecraft\1.6.4\DiverseBack\src" />
     </key>
@@ -110,6 +113,11 @@
       <workItem from="1587927786085" duration="215000" />
       <workItem from="1588033724787" duration="19000" />
       <workItem from="1588499393551" duration="3376000" />
+      <workItem from="1588538288631" duration="14000" />
+      <workItem from="1588570380993" duration="2325000" />
+      <workItem from="1588642050540" duration="3834000" />
+      <workItem from="1588647856436" duration="1302000" />
+      <workItem from="1588716709437" duration="4207000" />
     </task>
     <servers />
   </component>
@@ -117,17 +125,21 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1588570606908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588570606908" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587588113438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587588113438" />
-    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1588500618713">
+    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1588570730673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588500618713" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1588500620631">
+    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588570730673" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1588643448640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588500620631" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588643448640" />
   </component>
 </project>
