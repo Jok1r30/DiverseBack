@@ -1,6 +1,7 @@
-name: DiverseRestart
+name: DiverseBack
 version: 1.0
 author: Jok1r
-main: ru.jok1r.restart.Main
+main: ru.jok1r.back.Main
 commands:
-  drestart:
+  dback:
+  dbackreload:

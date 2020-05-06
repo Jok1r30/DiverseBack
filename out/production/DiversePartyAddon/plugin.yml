@@ -1,5 +1,0 @@
-name: DiversePartyAddon
-version: 1.0
-author: Jok1r
-main: ru.jok1r.partyAddon.DiversePartyAddon
-depend: [MaxParty]

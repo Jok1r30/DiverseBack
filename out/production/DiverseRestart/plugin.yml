@@ -1,6 +1,0 @@
-name: DiverseRestart
-version: 1.0
-author: Jok1r
-main: ru.jok1r.restart.Main
-commands:
-  drestart:
